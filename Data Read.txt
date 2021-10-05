@@ -1,0 +1,25 @@
+Collected from www.indiawris.gov.in
+
+
+https://indiawris.gov.in/wris/#/evapotranspiration
+
++Water Data
+  +Hydro-metereorological
+     +Evapotranspiration
+
+Appliction: Ground Water                            
+
+Source: All Agencies
+State: All
+Monthly
+
+Start December, 1993
+
+Stop July, 2021
+
+----------
+
+
+
+
+
