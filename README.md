@@ -8,11 +8,11 @@
 
 **Following R libraries are used to Forecast the Evapotranspiration in India**
 
-*library(fpp2)    ### for various dataset and forecst package <\b>
-*library(urca)       ### for KPSS test
-*library(seasonal)  ### for seas() or seas(x11="") decomposition, if required
-*library(dplyr)      ### for %>% 
-*library(tseries)     ### for adf.test() for Augmented Dicky-Fuller test
+library(fpp2)    ### for various dataset and forecst package 
+library(urca)       ### for KPSS test
+library(seasonal)  ### for seas() or seas(x11="") decomposition, if required
+library(dplyr)      ### for %>% 
+library(tseries)     ### for adf.test() for Augmented Dicky-Fuller test
 
 
 **We used KPSS test and Ljung-Box test at initial phases**
@@ -20,16 +20,16 @@
 
 **We used following models in this forecasting process**
 
-*auto.arima() 
-*meanf()
-*rwf() Random Walk Model
-*rwf(drif=TRUE) i.e., Drift Model
-*naive()
-*snaive()
-*tbats()
-*nnetar()
-*ets()
-*Arima()
+auto.arima() 
+meanf()
+rwf() Random Walk Model
+rwf(drif=TRUE) i.e., Drift Model
+naive()
+snaive()
+tbats()
+nnetar()
+ets()
+Arima()
 
 
 **Arima does better**
