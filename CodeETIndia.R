@@ -1,3 +1,6 @@
+### Created by Partha Pratim Ray
+### Email: ppray@ieee.org
+
 library(fpp2)    ### for various dataset and forecst package 
 library(urca)       ### for KPSS test
 library(seasonal)  ### for seas() or seas(x11="") decomposition, if required
@@ -105,8 +108,8 @@ accuracy(a1, t)
 autoplot(forecast(fa, h=h))
 
 ### Actual Forecasting beyond the dataset on whole data on the auto.arima fitted model for next 8 horizons
-t%>%auto.arima()%>%forecast(h=8)%>%autoplot()
-t%>%auto.arima()%>%forecast(h=8)%>%autoplot()+autolayer(fa$fitted)
+t%>%auto.arima()%>%forecast(h=h)%>%autoplot()
+t%>%auto.arima()%>%forecast(h=h)%>%autoplot()+autolayer(fa$fitted)
 
 
 ####################################################################
@@ -217,7 +220,7 @@ accuracy(a5, t)
 autoplot(forecast(fm, h=h))
 
 ### Actual Forecasting beyond the dataset on whole data on the Mean fitted model for next 8 horizons
-t%>%meanf()%>%forecast(PI=TRUE, h=h)%>%autoplot()
+t%>%meanf()%>%forecast(h=h)%>%autoplot()
 
 ####################################################################################
 #### Naive model forecasting for h horizons on train data
